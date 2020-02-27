@@ -11,3 +11,4 @@ The major, minor, or patch version of the Orb will be published based on version
   * Push a git tag with the following naming convention (major|minor|patch)-release-vX.X.X - orb will automatically be published w/ major, minor or patch version depending on what was specified in tag (the actual version in tag is just for reference)
   * Final testing will be performed when this tag is pushed, the publish to production will happen upon manual job approval within the CircleCi WorkFlows UI.
     * For the anchore-engine orb - the `custom_policy_fail` job should always fail, double check that policy evaluation to ensure custom policy was activated. Then go into the failed workflow and approval publish to prod.
+    *
